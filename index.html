@@ -591,20 +591,8 @@ Event website by Syed Faheel Ahmad (github.com/faheel)
   <script src="res/js/countdown.js"></script>
 
   <!-- Chat bot -->
-<!-- Chatra {literal} -->
-<script>
-    (function(d, w, c) {
-        w.ChatraID = 'xJcFfieG9LDYxu6Xz';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = 'https://call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
-</script>
-<!-- /Chatra {/literal} -->
+
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'f372951d-2954-4ef0-9be4-d5b63e831100', f: true }); done = true; } }; })();</script>
   
 </body>
   
